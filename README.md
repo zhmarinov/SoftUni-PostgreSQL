@@ -1,0 +1,2 @@
+# SoftUni-PostgreSQL
+Educational Course
