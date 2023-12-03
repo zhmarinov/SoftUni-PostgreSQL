@@ -6,7 +6,6 @@ CREATE OR REPLACE FUNCTION fn_calculate_future_value(
 ) RETURNS DECIMAL
 AS
 $$
-
 BEGIN
 	RETURN TRUNC(
 		initial_sum *((1 + yearly_interest_rate)^number_of_years), 
